@@ -44,7 +44,7 @@ collection of the dataset, which is 8
 th
 June 2023.
 8. Format ‘charges’ column as currency ($).
-### **Data Exploration:**
+### _**Data Exploration:**_
 **➔ Customer Names Table:**
 1. Are there any duplicate Customer IDs in the dataset? If yes, how many?
 2. How many customers are included in the dataset?
@@ -66,22 +66,22 @@ June 2023.
 5. Which city tier has the highest average hospitalization charges?
 6. Calculate the average charges for people who have more than 2 children.
 7. Find the integer average number of children of customers who are less than 40 years old.
-8. ### **Data Analysis:**
+### _**Data Analysis:**_
 ➢ Create a new sheet named “Healthcare, combine all three tables into one, using
 Customer ID as the common column, utilizing VLOOKUP.
 ➢ Retain the following necessary columns: Customer ID, First Name, BMI, HBA1C, Heart
 Issues, Any Transplants, Cancer history, NumberOfMajorSurgeries, smoker, Weight
 Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.
 ★ Create pivot tables if required to do the following analysis, then visualize through charts:
-**Analysis using Pie/Donut Chart:**
+### Analysis using Pie/Donut Chart:
 1. What is the distribution of cancer history among smokers and non-smokers?
 2. How does the total number of major surgeries and average HbA1C differ between
 patients with and without a history of transplants?
-**Analysis using Column/Bar Chart:**
+### Analysis using Column/Bar Chart:
 3. How do healthcare charges vary based on different weight statuses and diabetes
 statuses?
 4. Can you compare the average charges for each hospital tier within different states?
-**Analysis using Line/Scatter Plot:**
+### Analysis using Line/Scatter Plot:
 5. Is there any correlation between age and both BMI and HbA1C in the dataset?
 6. Explore the relationship between age and healthcare charges.
    
