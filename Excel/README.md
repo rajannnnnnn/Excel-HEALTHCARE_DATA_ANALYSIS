@@ -33,14 +33,12 @@ as below:
 6. Merge ‘year’, ‘month’ and ‘date’ columns in the “Hospitalization Details” Table into one
 column named ‘Date of Birth’ and format it in ‘DD-MMM-YYYY’ custom format.
 7. Calculate the ‘Age’ of each customer based on their ‘Date of Birth’ and the date of
-collection of the dataset, which is 8
-th
-June 2023.
+collection of the dataset, which is 8 th June 2023.
 8. Format ‘charges’ column as currency ($).
 ### Data Exploration:
 #### ➔ Customer Names Table:
 1. Are there any duplicate Customer IDs in the dataset? If yes, how many?
-2. How many customers are included in the dataset?
+2. How many customers are included in the dataset?<br>
 ![Screenshot (145)](https://github.com/user-attachments/assets/564b2bd4-9930-40d4-9a75-6af318ada0b1)
 
 #### ➔ Medical Examination Table:
@@ -52,7 +50,7 @@ June 2023.
 6. Calculate the percentage of customers who have undergone any transplants.
 7. Find the average HBA1C value of customers who are smokers.
 8. How many customers with heart issues have done transplant?
-9. What is the average BMI of the customers who have done more than 2 major surgeries?
+9. What is the average BMI of the customers who have done more than 2 major surgeries?<br>
 ![Screenshot (144)](https://github.com/user-attachments/assets/308e2be3-9acc-4a95-bea8-7af1c6d969c0)
 
 #### ➔ Hospitalization details Table:
@@ -62,7 +60,7 @@ June 2023.
 4. Compare the total charges across different hospital tiers.
 5. Which city tier has the highest average hospitalization charges?
 6. Calculate the average charges for people who have more than 2 children.
-7. Find the integer average number of children of customers who are less than 40 years old.
+7. Find the integer average number of children of customers who are less than 40 years old.<br>
 ![Screenshot (143)](https://github.com/user-attachments/assets/e91c83e0-d8ee-436f-b081-453a51b93749)
 
 ### Data Analysis:
@@ -70,17 +68,22 @@ June 2023.
 Customer ID as the common column, utilizing VLOOKUP.<br>
 ➢ Retain the following necessary columns: Customer ID, First Name, BMI, HBA1C, Heart
 Issues, Any Transplants, Cancer history, NumberOfMajorSurgeries, smoker, Weight
-Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.<br><br>
+Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.<br>
+![Screenshot (148)](https://github.com/user-attachments/assets/e64f0465-6cf8-4fac-89df-d5446131a765)<br>
 ★ Create pivot tables if required to do the following analysis, then visualize through charts:
 #### Analysis using Pie/Donut Chart:
 1. What is the distribution of cancer history among smokers and non-smokers?
 2. How does the total number of major surgeries and average HbA1C differ between
-patients with and without a history of transplants?
+patients with and without a history of transplants?<br>
+![Screenshot (150)](https://github.com/user-attachments/assets/e859bffe-6172-4fc3-bf57-e9c2105ae1f4)
+
 #### Analysis using Column/Bar Chart:
 3. How do healthcare charges vary based on different weight statuses and diabetes
 statuses?
-4. Can you compare the average charges for each hospital tier within different states?
+4. Can you compare the average charges for each hospital tier within different states?<br>
+![Screenshot (149)](https://github.com/user-attachments/assets/02bc47f5-db5d-4115-bab3-af3dc88bdf95)
+
 #### Analysis using Line/Scatter Plot:
 5. Is there any correlation between age and both BMI and HbA1C in the dataset?
-6. Explore the relationship between age and healthcare charges.
-   
+6. Explore the relationship between age and healthcare charges.<br>
+![Screenshot (151)](https://github.com/user-attachments/assets/beb05c11-1892-455b-85d0-47b9632ac265)   
