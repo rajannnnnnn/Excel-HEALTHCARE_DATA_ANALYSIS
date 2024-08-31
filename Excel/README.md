@@ -68,7 +68,7 @@ collection of the dataset, which is 8 th June 2023.
 Customer ID as the common column, utilizing VLOOKUP.<br>
 ➢ Retain the following necessary columns: Customer ID, First Name, BMI, HBA1C, Heart
 Issues, Any Transplants, Cancer history, NumberOfMajorSurgeries, smoker, Weight
-Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.<br>
+Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.<br><br>
 ![Screenshot (148)](https://github.com/user-attachments/assets/e64f0465-6cf8-4fac-89df-d5446131a765)<br>
 ★ Create pivot tables if required to do the following analysis, then visualize through charts:
 #### Analysis using Pie/Donut Chart:
