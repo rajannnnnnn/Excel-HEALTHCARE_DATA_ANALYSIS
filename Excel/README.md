@@ -44,11 +44,11 @@ collection of the dataset, which is 8
 th
 June 2023.
 8. Format ‘charges’ column as currency ($).
-### _**Data Exploration:**_
-**➔ Customer Names Table:**
+### Data Exploration:
+#### ➔ Customer Names Table:**
 1. Are there any duplicate Customer IDs in the dataset? If yes, how many?
 2. How many customers are included in the dataset?
-**➔ Medical Examination Table:**
+#### ➔ Medical Examination Table:
 1. How many customers have a history of cancer?
 2. Identify the customer(s) with the highest BMI.
 3. How many customers have Diabetes?
@@ -58,7 +58,7 @@ June 2023.
 7. Find the average HBA1C value of customers who are smokers.
 8. How many customers with heart issues have done transplant?
 9. What is the average BMI of the customers who have done more than 2 major surgeries?
-**➔ Hospitalization details Table:**
+#### ➔ Hospitalization details Table:
 1. Calculate all the Summary statistics for the ‘charges’ column.
 2. Which is the median age and the most common age in the dataset?
 3. Find the average hospitalization charges for customers who are more than 50 years old.
@@ -66,12 +66,12 @@ June 2023.
 5. Which city tier has the highest average hospitalization charges?
 6. Calculate the average charges for people who have more than 2 children.
 7. Find the integer average number of children of customers who are less than 40 years old.
-### _**Data Analysis:**_
+### Data Analysis:
 ➢ Create a new sheet named “Healthcare, combine all three tables into one, using
-Customer ID as the common column, utilizing VLOOKUP.
+Customer ID as the common column, utilizing VLOOKUP.<br>
 ➢ Retain the following necessary columns: Customer ID, First Name, BMI, HBA1C, Heart
 Issues, Any Transplants, Cancer history, NumberOfMajorSurgeries, smoker, Weight
-Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.
+Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.<br>
 ★ Create pivot tables if required to do the following analysis, then visualize through charts:
 ### Analysis using Pie/Donut Chart:
 1. What is the distribution of cancer history among smokers and non-smokers?
