@@ -66,7 +66,7 @@ June 2023.
 5. Which city tier has the highest average hospitalization charges?
 6. Calculate the average charges for people who have more than 2 children.
 7. Find the integer average number of children of customers who are less than 40 years old.
-### **Data Analysis:**
+8. ### **Data Analysis:**
 ➢ Create a new sheet named “Healthcare, combine all three tables into one, using
 Customer ID as the common column, utilizing VLOOKUP.
 ➢ Retain the following necessary columns: Customer ID, First Name, BMI, HBA1C, Heart
