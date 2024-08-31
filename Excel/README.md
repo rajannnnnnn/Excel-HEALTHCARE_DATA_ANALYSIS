@@ -66,15 +66,15 @@ Customer ID as the common column, utilizing VLOOKUP.<br>
 Issues, Any Transplants, Cancer history, NumberOfMajorSurgeries, smoker, Weight
 Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.<br><br>
 ★ Create pivot tables if required to do the following analysis, then visualize through charts:
-### Analysis using Pie/Donut Chart:
+#### Analysis using Pie/Donut Chart:
 1. What is the distribution of cancer history among smokers and non-smokers?
 2. How does the total number of major surgeries and average HbA1C differ between
 patients with and without a history of transplants?
-### Analysis using Column/Bar Chart:
+#### Analysis using Column/Bar Chart:
 3. How do healthcare charges vary based on different weight statuses and diabetes
 statuses?
 4. Can you compare the average charges for each hospital tier within different states?
-### Analysis using Line/Scatter Plot:
+#### Analysis using Line/Scatter Plot:
 5. Is there any correlation between age and both BMI and HbA1C in the dataset?
 6. Explore the relationship between age and healthcare charges.
    
