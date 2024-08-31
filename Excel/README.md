@@ -41,6 +41,8 @@ June 2023.
 #### ➔ Customer Names Table:
 1. Are there any duplicate Customer IDs in the dataset? If yes, how many?
 2. How many customers are included in the dataset?
+![Screenshot (145)](https://github.com/user-attachments/assets/564b2bd4-9930-40d4-9a75-6af318ada0b1)
+
 #### ➔ Medical Examination Table:
 1. How many customers have a history of cancer?
 2. Identify the customer(s) with the highest BMI.
@@ -51,6 +53,8 @@ June 2023.
 7. Find the average HBA1C value of customers who are smokers.
 8. How many customers with heart issues have done transplant?
 9. What is the average BMI of the customers who have done more than 2 major surgeries?
+![Screenshot (144)](https://github.com/user-attachments/assets/308e2be3-9acc-4a95-bea8-7af1c6d969c0)
+
 #### ➔ Hospitalization details Table:
 1. Calculate all the Summary statistics for the ‘charges’ column.
 2. Which is the median age and the most common age in the dataset?
@@ -59,6 +63,8 @@ June 2023.
 5. Which city tier has the highest average hospitalization charges?
 6. Calculate the average charges for people who have more than 2 children.
 7. Find the integer average number of children of customers who are less than 40 years old.
+![Screenshot (143)](https://github.com/user-attachments/assets/e91c83e0-d8ee-436f-b081-453a51b93749)
+
 ### Data Analysis:
 ➢ Create a new sheet named “Healthcare, combine all three tables into one, using
 Customer ID as the common column, utilizing VLOOKUP.<br>
