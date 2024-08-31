@@ -8,8 +8,8 @@ insights into patient health profiles, medical histories, and healthcare costs. 
 relationships between various health metrics, identifying trends, and visualizing key patterns,
 we aim to deliver actionable insights to healthcare stakeholders for informed decision-making
 through rigorous data cleaning, transformation, exploration, and analysis.
-## **Project Steps and Objectives:**
-### **Data Cleaning:**
+## Project Steps and Objectives:
+### Data Cleaning:
 1. Check for the number of missing values marked with '?' in each column of the “Medical
 Examinations” Table and "Hospitalization Details" Table.
 2. Fill in the missing values of ‘month’ with Sep and ‘year’ with its average rounded to the
@@ -18,7 +18,7 @@ nearest integer.
 columns, and fill in the missing values accordingly.
 4. If any 'State ID' values are missing, consider filling them with 'Unknown' or using another
 appropriate strategy.
-### **Data Transformation:**
+### Data Transformation:
 1. Split the ‘names’ column in the “Customer Names” Table into 3 meaningful columns: ‘Title’,
 ‘First Name’, and ‘Last Name’.
 2. Convert the "NumberOfMajorSurgeries" column in the “Medical Examinations” Table to
@@ -27,16 +27,9 @@ numerical data by replacing non-numeric characters with meaningful numerical val
 actions if necessary.
 4. Create a new column named “Weight Status” that categorizes BMI into different categories
 as below:
-BMI Weight Status
-Below 18.5 Underweight
-18.5 – 24.9 Healthy Weight
-25.0 – 29.9 Overweight
-30.0 and Above Obesity
+![Screenshot (138)](https://github.com/user-attachments/assets/fd6d4074-cdb2-4af9-94a9-cd6fbca9a0ee)
 5. Create a new column named “Diabetes Status” and fill it as per the information given below:
-HbA1C Diabetes Status
-Below 5.7 Normal
-5.7 – 6.4 Prediabetes
-6.5 and Above Diabetes
+![Screenshot (138)](https://github.com/user-attachments/assets/b0f5f92e-4803-42ce-87f2-f84123994fe3)
 6. Merge ‘year’, ‘month’ and ‘date’ columns in the “Hospitalization Details” Table into one
 column named ‘Date of Birth’ and format it in ‘DD-MMM-YYYY’ custom format.
 7. Calculate the ‘Age’ of each customer based on their ‘Date of Birth’ and the date of
@@ -45,7 +38,7 @@ th
 June 2023.
 8. Format ‘charges’ column as currency ($).
 ### Data Exploration:
-#### ➔ Customer Names Table:**
+#### ➔ Customer Names Table:
 1. Are there any duplicate Customer IDs in the dataset? If yes, how many?
 2. How many customers are included in the dataset?
 #### ➔ Medical Examination Table:
@@ -71,7 +64,7 @@ June 2023.
 Customer ID as the common column, utilizing VLOOKUP.<br>
 ➢ Retain the following necessary columns: Customer ID, First Name, BMI, HBA1C, Heart
 Issues, Any Transplants, Cancer history, NumberOfMajorSurgeries, smoker, Weight
-Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.<br>
+Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.<br><br>
 ★ Create pivot tables if required to do the following analysis, then visualize through charts:
 ### Analysis using Pie/Donut Chart:
 1. What is the distribution of cancer history among smokers and non-smokers?
