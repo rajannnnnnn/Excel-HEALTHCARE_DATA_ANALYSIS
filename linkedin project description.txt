@@ -1,0 +1,41 @@
+This project aims to analyze a comprehensive healthcare dataset comprising medical examinations, hospitalization details, and customer profiles to extract insights into patient health profiles, medical histories, and healthcare costs.
+By exploring relationships between various health metrics, identifying trends, and visualizing key patterns, I aim to deliver actionable insights to healthcare stakeholders for informed decision-making through rigorous data cleaning, transformation, exploration, and analysis.
+
+STEP-by-STEP Progress:
+-------------------------------------------------------------------------
+(1) [Data souring]
+ Looking over the data and understanding it.
+ Dataset overview:
+ - 3 sheets, with total 17 features
+ - 2,335 records
+ |
+ |
+(2) [Data Cleaning]
+ - Dealing with inconsistency.
+ - Handling missing values and outliers.
+ |
+ |
+(3) [Data Transformation]
+ - Creating new columns that simplifies other columns. (Ex. Weight Status, Diabetes Status)
+ - Splitting columns. (Ex. From full name to Title, First, Last)
+ |
+ |
+(4) [Data Exploration] 
+ Exploration on each tables, which includes
+ - Customer Names table
+ - Medical Examination table
+ - Hospitalization Details table
+ |
+ |
+(5) [Data Merging] 
+ Merging 3 tables into one using vlookup and CustomerId as common column
+ |
+ |
+(6) [Data Analysis] 
+ Analysis done by Data Visualisation which includes
+ - Pie/Donut Chart
+ - Column/Bar Chart
+ - Line/Scatter Plot
+-----------------------------------------------------------------------------
+
+By this project, I learned how various techniques are used to clean the raw data, which finally results in usefull insight.
