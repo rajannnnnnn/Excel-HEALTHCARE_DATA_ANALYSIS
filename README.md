@@ -29,7 +29,7 @@ actions if necessary.
 as below:
 ![Screenshot (138)](https://github.com/user-attachments/assets/fd6d4074-cdb2-4af9-94a9-cd6fbca9a0ee)
 5. Create a new column named “Diabetes Status” and fill it as per the information given below:
-![Screenshot (138)](https://github.com/user-attachments/assets/b0f5f92e-4803-42ce-87f2-f84123994fe3)
+![Screenshot (223)](https://github.com/user-attachments/assets/78509689-59d4-42f4-b955-8d3bd05d3cd7)
 6. Merge ‘year’, ‘month’ and ‘date’ columns in the “Hospitalization Details” Table into one
 column named ‘Date of Birth’ and format it in ‘DD-MMM-YYYY’ custom format.
 7. Calculate the ‘Age’ of each customer based on their ‘Date of Birth’ and the date of
